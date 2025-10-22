@@ -1,5 +1,13 @@
-// Update footer year
+// Update year
 document.getElementById('year').textContent = new Date().getFullYear();
+
+// Mobile menu toggle
+const menuToggle = document.getElementById('menu-toggle');
+const navMenu = document.getElementById('nav-menu');
+
+menuToggle.addEventListener('click', () => {
+  navMenu.classList.toggle('show');
+});
 
 // Lightbox modal
 const modal = document.getElementById('modal');
