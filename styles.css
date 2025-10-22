@@ -46,7 +46,15 @@ header {
   gap: 20px;
 }
 
-.logo img { height: 50px; width: auto; }
+.logo img {
+  height: 35px;
+  width: auto;
+}
+
+footer img {
+  height: 28px;
+  width: auto;
+}
 
 nav {
   margin-left: auto;
