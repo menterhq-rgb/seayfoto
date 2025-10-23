@@ -116,57 +116,50 @@
     </div>
   </section>
 
-  <!-- ABOUT / CONTACT -->
-  <section id="about" class="section">
-    <div class="container">
-      <div class="section-title">
-        <h2>About Seay Foto</h2>
-        <span class="muted">Portraits with warmth, care and creativity</span>
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="container contact-flex">
+      
+      <!-- Left -->
+      <div class="contact-info">
+        <h2>Let's Create Something Beautiful Together</h2>
+        <p>We’d love to capture your story. Whether it’s an intimate portrait, a family session, or a luxury experience — every shoot is tailored to you.</p>
+        
+        <ul class="contact-details">
+          <li><strong>Email:</strong> <a href="mailto:seayfoto@gmail.com">seayfoto@gmail.com</a></li>
+          <li><strong>Phone:</strong> <a href="tel:+353892750686">089 275 0686</a></li>
+          <li><strong>Location:</strong> Dublin, Ireland</li>
+          <li><strong>Instagram:</strong> <a href="https://instagram.com/seayfoto" target="_blank">@seayfoto</a></li>
+        </ul>
+
+        <div class="contact-image">
+          <img src="p3.png" alt="Behind the scenes photography" />
+        </div>
       </div>
 
-      <div class="contact-grid" id="contact">
-        <div>
-          <p class="muted">Based in Dublin, Seay Foto specialises in creating authentic portrait and family photography. Every session is designed to capture natural emotions with style and elegance, supported by professional makeup, styling, and premium print options.</p>
+      <!-- Right -->
+      <div class="contact-form-card">
+        <h3>Book Your Session</h3>
+        <p class="muted">Fill out the form below and we’ll get back to you within 24 hours.</p>
 
-          <ul class="muted">
-            <li>Professional stylist & makeup</li>
-            <li>Handcrafted albums & prints</li>
-            <li>Short cinematic highlight videos</li>
-            <li>Express delivery options</li>
-          </ul>
-
-          <div style="margin-top:20px">
-            <strong>Contact:</strong>
-            <p class="muted">
-              Email: <a href="mailto:seayfoto@gmail.com">seayfoto@gmail.com</a><br>
-              Phone: <a href="tel:+353892750686">089 275 0686</a><br>
-              Location: Dublin, Ireland<br>
-              Instagram: <a href="https://instagram.com/seayfoto" target="_blank">@seayfoto</a>
-            </p>
+        <form onsubmit="alert('Form submitted (demo)'); return false;">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
           </div>
-        </div>
-
-        <div>
-          <div class="card">
-            <h3>Book / Enquiry</h3>
-            <form onsubmit="alert('Form submitted (demo)'); return false;">
-              <input type="text" name="name" placeholder="Full Name" required>
-              <input type="email" name="email" placeholder="Email Address" required>
-              <input type="tel" name="phone" placeholder="Phone Number (optional)">
-              <select name="session">
-                <option>Portrait — Mini (€250)</option>
-                <option>Portrait — Standard (€600)</option>
-                <option>Portrait — Luxury (€1000)</option>
-                <option>Family — Mini (€400)</option>
-                <option>Family — Classic (€800)</option>
-                <option>Family — Luxury (€1500)</option>
-                <option>Other / Custom</option>
-              </select>
-              <textarea name="message" placeholder="Your message"></textarea>
-              <button class="btn" type="submit">Send Enquiry</button>
-            </form>
-          </div>
-        </div>
+          <input type="tel" name="phone" placeholder="Phone Number (optional)">
+          <select name="session">
+            <option>Portrait — Mini (€250)</option>
+            <option>Portrait — Standard (€600)</option>
+            <option>Portrait — Luxury (€1000)</option>
+            <option>Family — Mini (€400)</option>
+            <option>Family — Classic (€800)</option>
+            <option>Family — Luxury (€1500)</option>
+            <option>Other / Custom</option>
+          </select>
+          <textarea name="message" placeholder="Tell us about your vision..."></textarea>
+          <button class="btn" type="submit">Send Enquiry</button>
+        </form>
       </div>
     </div>
   </section>
